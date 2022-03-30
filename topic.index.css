@@ -1,0 +1,256 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .nav {
+     width: 100%;
+     display: flex;
+ }
+ 
+ .logo {
+     margin: 20px;
+     width: 250px;
+ }
+ 
+ .logo img {
+     width: 100%;
+ }
+ 
+ .name {
+     width: 100%;
+ }
+ 
+ .meun {
+     width: 1190px;
+     background-color: rgb(255, 255, 255);
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+ }
+ 
+ .header {
+     font-size: 36px;
+ }
+ 
+ h1 {
+     font-size: 44px;
+     text-align: center;
+     background-color: rgb(113, 227, 255);
+ }
+ 
+ .life {
+     display: flex;
+     width: 100%;
+     background-color: rgb(255, 255, 255);
+ }
+ 
+ .life-photo {
+     display: flex;
+     flex-wrap: wrap;
+     margin: 60px;
+     background-color: rgb(255, 255, 255);
+ }
+ 
+ .lesson img,
+ .student img,
+ .enviroment img,
+ .book img {
+     height: 150px;
+     width: 250px;
+     margin: 20px;
+ }
+ 
+ .news {
+     background-color: rgb(255, 255, 255);
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 50px;
+     padding-bottom: 50px;
+ }
+ 
+ .latest-events {
+     text-align: center;
+     border-radius: 5%;
+     background-color: rgb(195, 231, 247);
+     width: 400px;
+     margin-right: 150px;
+     font-size: 32px;
+ }
+ 
+ .boss {
+     width: 100%;
+     display: flex;
+     background-color: rgb(255, 255, 255);
+     justify-content: space-evenly;
+ }
+ 
+ .speech {
+     width: 70%;
+     background-color: rgb(195, 231, 247);
+     display: flex;
+     align-items: center;
+     font-size: 24px;
+     justify-content: center;
+ }
+ 
+ .boss_photo img {
+     width: 300px;
+     height: 500px;
+ }
+ 
+ .members,
+ .subject {
+     padding-top: 80px;
+     background-color: rgb(255, 255, 255);
+     width: 1440px;
+ }
+ 
+ .teacher,
+ .hots {
+     margin-top: 20px;
+     width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+     background-color: rgb(255, 255, 255);
+ }
+ 
+ .col img {
+     width: 300px;
+     height: 250px;
+     object-fit: cover;
+ }
+ 
+ .col:hover {
+     opacity: 2;
+ }
+ 
+ .col {
+     width: 300px;
+     background-color: rgb(255, 255, 255);
+     box-shadow: 10px 10px 10px black;
+     border-radius: 10px;
+ }
+ 
+ .col:nth-child(odd) {
+     position: relative;
+     bottom: 80px;
+ }
+ 
+ .footer {
+     padding-top: 30px;
+     display: flex;
+     width: 100%;
+     background-color: rgb(255, 255, 255);
+     justify-content: center;
+ }
+ 
+ .address {
+     background-color: (113, 227, 255);
+     align-items: center;
+     font-size: 24px;
+ }
+ 
+ .media {
+     display: flex;
+     font-size: 36px;
+     align-items: center;
+     padding-left: 20px;
+     width: 100px;
+     justify-content: space-around;
+ }
+ 
+ .main_lesson {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     background-color: rgb(255, 255, 255);
+ }
+ 
+ .chinese,
+ .english,
+ .math {
+     display: flex;
+     background-color: rgb(255, 255, 255);
+     margin: 20px;
+ }
+ 
+ .main_lesson .chinese a {
+     align-items: flex-end;
+ }
+ 
+ .personal {
+     padding-top: 80px;
+     width: 100%;
+     background-color: rgb(255, 255, 255);
+     padding-bottom: 50px;
+ }
+ 
+ .personal-section {
+     display: flex;
+ }
+ 
+ .personal-feautre {
+     display: flex;
+     width: 50%;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+ 
+ .analysis {
+     text-align: center;
+     width: 30%;
+ }
+ 
+ button {
+     color: black;
+     border-radius: 6px;
+     font-size: 24px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ 
+ .spot {
+     text-align: center;
+     margin: 15px;
+     font-size: 28px;
+     position: relative;
+     bottom: 30px;
+     font-style: italic;
+ }
+ 
+ .slogan {
+     width: 100%;
+ }
+ 
+ .slogan img {
+     width: 100%;
+ }
+ 
+ .english {
+     position: relative;
+     left: 80px;
+ }
+ 
+ .subject-info {
+     margin: 10px;
+ }
+ 
+ .adv {
+     position: fixed;
+ }
+ 
+ .english,
+ .chinese,
+ .math {
+     width: 70%;
+ }
+ 
+ .main_lesson {
+     align-items: center;
+ }
+ 
+ .col {
+     padding: 30px;
+ }
