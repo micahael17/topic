@@ -29,7 +29,7 @@
      align-items: center;
  }
  
- .header {
+ .main-meun {
      font-size: 36px;
  }
  
@@ -253,4 +253,80 @@
  
  .col {
      padding: 30px;
+ }
+ 
+ .indiviual {
+     padding-top: 40px;
+     padding-bottom: 40px;
+     display: flex;
+     width: 100%;
+     justify-content: center;
+ }
+ 
+ .indiviual img {
+     width: 60%;
+ }
+ 
+ .card-photo img {
+     border-radius: 50%;
+ }
+ 
+ .indiviaul-section {
+     padding-top: 30px;
+     display: flex;
+     width: 100%;
+     justify-content: space-evenly;
+ }
+ 
+ .card-text {
+     margin-top: 10px;
+     text-align: center;
+ }
+ 
+ .indiviaul-feature {
+     display: block;
+     box-shadow: 8px 8px 2px rgb(253 151 83 / 91%), -8px -8px 2px rgb(37 212 212 / 89%);
+     max-width: 380px;
+     width: 60%;
+     font-size: 32px;
+     margin: 0 auto;
+     text-align: center;
+ }
+ 
+ .infro {
+     margin-bottom: 30px;
+ }
+ 
+ .target {
+     margin-bottom: 60px;
+ }
+ 
+ .target-case {
+     display: flex;
+     justify-content: space-evenly;
+     margin-top: 60px;
+ }
+ 
+ .gifted,
+ .slow {
+     width: 20%;
+     position: relative;
+     border: 4px solid rgb(255, 115, 0);
+     border-radius: 5px;
+     padding: 10px;
+ }
+ 
+ .gifted-tag,
+ .slow-tag {
+     position: absolute;
+     top: -20px;
+     left: -40px;
+     background-color: aqua;
+     font-size: 28px;
+     border: 4px solid rgb(255, 115, 0);
+ }
+ 
+ .gifted-photo img,
+ .slow-photo img {
+     width: 100%;
  }
