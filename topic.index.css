@@ -410,3 +410,49 @@ button {
 .keep img {
     width: 500px;
 }
+
+.reserve {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.reserve-section {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reserve-input {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 3px solid rgb(250, 108, 14);
+}
+
+.head-teacher {
+    width: 30%;
+    text-align: center;
+    margin-top: 40px;
+    border: 20px solid aqua;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.head-teacher.photo {
+    width: 300px;
+}
+
+.head-teacher-speech {
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.head-teacher-title {
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
