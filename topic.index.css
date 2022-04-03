@@ -159,11 +159,12 @@ h1 {
 
 .media {
     display: flex;
-    font-size: 36px;
-    align-items: center;
-    padding-left: 20px;
-    width: 100px;
-    justify-content: space-around;
+    width: 130px;
+    margin-left: 70px;
+    font-size: 24px;
+    margin-bottom: 80px;
+    padding: 10px;
+    box-shadow: 8px 8px 2px rgb(253 151 83 / 91%), -8px -8px 2px rgb(37 212 212 / 89%);
 }
 
 .main_lesson {
@@ -455,4 +456,61 @@ button {
     width: 300px;
     margin: 0 auto;
     padding-bottom: 10px;
+}
+
+.why_section,
+.prepare_section,
+.experience_section {
+    display: flex;
+}
+
+.why_text,
+.prepare_text,
+.experience_text {
+    width: 400px;
+    margin-left: 20px;
+    align-self: center;
+}
+
+.toeic {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.why,
+.experience {
+    position: relative;
+    left: 120px;
+}
+
+.plan {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.timetable_title {
+    text-align: center;
+}
+
+.timetable_text {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.classtable {
+    border-collapse: separate;
+    border: 3px solid rgb(20, 154, 243);
+}
+
+.footer_meun {
+    margin-right: 80px;
+    margin-bottom: 80px;
+    box-shadow: 8px 8px 2px rgb(253 151 83 / 91%), -8px -8px 2px rgb(37 212 212 / 89%);
+    padding: 10px;
+}
+
+.footer_meun a {
+    text-decoration: none;
 }
