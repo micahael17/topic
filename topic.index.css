@@ -155,6 +155,9 @@ h1 {
     background-color: (113, 227, 255);
     align-items: center;
     font-size: 24px;
+    box-shadow: 8px 8px 2px rgb(253 151 83 / 91%), -8px -8px 2px rgb(37 212 212 / 89%);
+    height: 100px;
+    padding: 10px;
 }
 
 .media {
@@ -301,6 +304,7 @@ button {
 
 .infro {
     margin-bottom: 30px;
+    margin-top: 50px;
 }
 
 .target {
@@ -341,23 +345,27 @@ button {
     margin-bottom: 60px;
 }
 
-.fee-section {
+.fee-section,
+.fee_onsale {
     display: flex;
     justify-content: space-evenly;
     margin-top: 40px;
 }
 
-.plan {
+.plan,
+.onsale {
     border: 4px solid rgb(231, 98, 9);
     text-align: center;
 }
 
-.plan-title {
+.plan-title,
+.onsale_title {
     padding: 20px;
     background-color: aqua;
 }
 
-.plan-text {
+.plan-text,
+.onsale_text {
     padding: 20px;
     border-top: 4px solid rgb(231, 98, 9);
 }
@@ -439,6 +447,7 @@ button {
     border: 20px solid aqua;
     border-radius: 10%;
     padding: 10px;
+    margin-bottom: 30px;
 }
 
 .head-teacher.photo {
@@ -462,11 +471,13 @@ button {
 .prepare_section,
 .experience_section {
     display: flex;
+    margin: 20px;
 }
 
 .why_text,
 .prepare_text,
 .experience_text {
+    margin: 10px;
     width: 400px;
     margin-left: 20px;
     align-self: center;
@@ -483,7 +494,8 @@ button {
     left: 120px;
 }
 
-.plan {
+.plan,
+.onsale {
     border-radius: 50%;
     overflow: hidden;
 }
@@ -513,4 +525,37 @@ button {
 
 .footer_meun a {
     text-decoration: none;
+    color: aqua;
+}
+
+.prepare_section {
+    flex-flow: row-reverse;
+}
+
+.countdown {
+    display: flex;
+    position: absolute;
+    left: 50px;
+}
+
+.junior,
+.senior,
+.senior2 {
+    width: 80px;
+    border: 3px solid rgb(235, 107, 2);
+    height: 40px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.junior i,
+.senior i,
+.senior2 i {
+    font-size: 32px;
+    font-weight: bolder;
+    color: red
+}
+
+.boss {
+    position: relative;
 }
